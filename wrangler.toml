@@ -1,0 +1,19 @@
+name = "hono-lucia"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VARIABLE = "production_value"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hono"
+database_id = "c1733987-b1f5-4c1a-867a-2926fb62df76"
+migrations_dir = "drizzle/migrations"
